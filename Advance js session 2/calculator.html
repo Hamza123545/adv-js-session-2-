@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" type="text/css" href="./cal.css">
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="result" readonly>
+    <div class="buttons">
+      <button id="cal1" onclick="calculate('/')">/</button>
+      <button id="cal2" onclick="updateResult(7)">7</button>
+      <button id="cal3" onclick="updateResult(8)">8</button>
+      <button id="cal4" onclick="updateResult(9)">9</button>
+      <button id="cal5" onclick="calculate('*')">x</button>
+      <button id="cal6" onclick="updateResult(4)">4</button>
+      <button id="cal7" onclick="updateResult(5)">5</button>
+      <button id="cal8" onclick="updateResult(6)">6</button>
+      <button id="cal9" onclick="calculate('-')">-</button>
+      <button id="cal10" onclick="updateResult(1)">1</button>
+      <button id="cal11" onclick="updateResult(2)">2</button>
+      <button id="cal12" onclick="updateResult(3)">3</button>
+      <button id="cal13" onclick="calculate('+')">+</button>
+      <button id="cal14" onclick="updateResult(0)">0</button>
+      <button id="cal15" onclick="calculate('=')">=</button>
+    </div>
+    </div>
+  <script src="./calculator.js"> </script>
+  </body>
+  </html>
